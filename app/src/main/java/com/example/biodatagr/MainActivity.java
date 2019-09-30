@@ -32,11 +32,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @SuppressLint("LongLogTag")
-    public void mail(View view) {
+    public void  mail(View view) {
         Log.i("Send email", "");
 
         String[] TO = {"bayugrafit@gmail.com"};
-        String[] CC = {"nbayugrafit@gmail.com"};
+        String[] CC = {"bayugrafit@gmail.com"};
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
         emailIntent.setData(Uri.parse("mailto:"));
         emailIntent.setType("text/plain");
@@ -57,9 +57,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void alamat(View view) {
-
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/place/Prau,+Mlowokarangtalun,+Pulokulon,+Grobogan+Regency,+Central+Java/@-7.2049692,111.0676672,18z/data=!3m1!4b1!4m5!3m4!1s0x2e70ab6a19f512ef:0x691ade4ad8894765!8m2!3d-7.2053586!4d111.068768"));
+        startActivity(intent);
     }
 
     public void follow(View view) {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/Grafiters/"));
+        startActivity(intent);
     }
 }
