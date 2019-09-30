@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FFFFFF">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -42,14 +43,15 @@
                 android:layout_height="wrap_content"
                 android:text="A11.2017.10284"
                 android:textAlignment="center"
-                android:textSize="20dp"/>
+                android:textSize="20dp"
+                android:textColor="#FFF"/>
 
         </LinearLayout>
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
             android:layout_height="120dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="275dp">
+            android:layout_marginTop="280dp">
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -64,10 +66,13 @@
                     <Button
                         android:id="@+id/call"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:text="phone"
-                        />
+                        android:layout_height="match_parent"
+                        android:text="PHONE"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000000"
+                        android:onClick="call"
+                        android:background="#FFFFFF"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -78,10 +83,13 @@
                     <Button
                         android:id="@+id/email"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:text="mail"
-                        />
+                        android:layout_height="match_parent"
+                        android:text="E-MAIL"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000000"
+                        android:onClick="mail"
+                        android:background="#FFFFFF"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="0dp"
@@ -92,10 +100,13 @@
                     <Button
                         android:id="@+id/alamat"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="#FFFFFF"
-                        android:text="alamat"
-                        />
+                        android:layout_height="match_parent"
+                        android:text="ALAMAT"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:textColor="#000000"
+                        android:onClick="alamat"
+                        android:background="#FFFFFF"/>
                 </LinearLayout>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -122,32 +133,41 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="GAME, NGOPREK, OLAHRAGA"
-                android:paddingLeft="15dp"
-                android:textSize="20dp"/>
+                android:paddingLeft="10dp"
+                android:textSize="15dp"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="10dp"
+            android:paddingTop="20dp"
             android:orientation="horizontal"
+            android:gravity="center_vertical"
             >
 
             <ImageView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
                 android:src="@drawable/ic_account_circle_black_24dp"/>
-            <TextView
-                android:paddingTop="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="HALO GUYS, SAYA GRAFIT DARI PURWODADI, SAYA ADALAH SALAH SATU DIANTARA
-                                BANYAKNYA MAHASISWA UDINUS YANG MASIH SEMESTER 5 DAN SEKARANG SEDANG
-                                MENGAMBIL MATA KUIAH PEMROGRAMAN PERANGKAT BERGERAK"
-                android:paddingLeft="15dp"
-                android:textSize="15dp"/>
-        </LinearLayout>
 
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:text="HALO GUYS, SAYA GRAFIT DARI PURWODADI SAYA ORANGNYA SIMPLE DAN SANTAI"
+                />
+        </LinearLayout>
+        <Button
+            android:id="@+id/follow_me"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="FOLLOW ME"
+            android:textColor="#FFFFFF"
+            android:onClick="follow"
+            android:background="@drawable/buttonstylecolor"
+            />
     </LinearLayout>
 </LinearLayout>
