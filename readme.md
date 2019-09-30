@@ -18,4 +18,4 @@
  - find your ```devices or emulator```
  - you can ```test the project```
 
-=> Don't forget to Follow my github account ```https://github.com/Grafiters```
+<Don't forget to Follow my github account ```https://github.com/Grafiters```>
