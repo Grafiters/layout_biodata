@@ -8,6 +8,7 @@ MERGED from [androidx.appcompat:appcompat:1.0.2] /home/grafiters/.gradle/caches/
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/grafiters/.gradle/caches/transforms-2/files-2.1/8392647ca9531c13a8f0d6b7ad086e7e/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/grafiters/.gradle/caches/transforms-2/files-2.1/fc5688390a3cac2f1b1092425ecd5487/circleimageview-1.2.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [me.biubiubiu.justifytext:library:1.1] /home/grafiters/.gradle/caches/transforms-2/files-2.1/62aae4c355870039d5cf1753e734362c/library-1.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/abc680e55824c418c024460e31034ed4/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -100,6 +101,8 @@ MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/grafiters/.gradle/caches/
 MERGED from [de.hdodenhof:circleimageview:1.2.1] /home/grafiters/.gradle/caches/transforms-2/files-2.1/fc5688390a3cac2f1b1092425ecd5487/circleimageview-1.2.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/ccc4f60e4549c263b614feec2a027fa2/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [me.biubiubiu.justifytext:library:1.1] /home/grafiters/.gradle/caches/transforms-2/files-2.1/62aae4c355870039d5cf1753e734362c/library-1.1/AndroidManifest.xml:7:5-9:41
+MERGED from [me.biubiubiu.justifytext:library:1.1] /home/grafiters/.gradle/caches/transforms-2/files-2.1/62aae4c355870039d5cf1753e734362c/library-1.1/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.fragment:fragment:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/4f37a040d795d0eef135b10b20545e3f/fragment-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /home/grafiters/.gradle/caches/transforms-2/files-2.1/d382ba9b8c9ea9d7b43a9cfaea0ecdf4/vectordrawable-animated-1.0.0/AndroidManifest.xml:20:5-44
