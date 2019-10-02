@@ -3,11 +3,11 @@
 
 # GRADLE FILE
  - add new enviroment gradle app for layouting design
-    ```implementation 'de.hdodenhof:circleimageview:1.2.1'``` for set circle image ```make an any image resolution to circle image```
+```implementation 'de.hdodenhof:circleimageview:1.2.1'``` for set circle image ```make an any image resolution to circle image```
  - add any environment gradle app
-    ```implementation 'com.android.support:cardview-v7:28.0.0'``` for set Card View ```make you view Linear Layout to otomatis card```
+```implementation 'com.android.support:cardview-v7:28.0.0'``` for set Card View ```make you view Linear Layout to otomatis card```
  - add any environment gradle app
-    ```implementation 'me.biubiubiu.justifytext:library:1.1'``` for set your aligment text to justify
+```implementation 'me.biubiubiu.justifytext:library:1.1'``` for set your aligment text to justify
 
 # REQUIREMENT
  - AndroidStudio -v 3.5.+
